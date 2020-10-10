@@ -1,0 +1,55 @@
+
+/*----------------      Master Styles   -----------------*/
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*----------        Navigation Bar Styles       ---------*/
+nav {
+    height: 10rem;
+    color: #2c3258;
+    background-color: #fee970;
+}
+
+.header {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigationBar {
+    display: flex;
+}
+
+.navLink {
+    margin-left: 1.5rem;
+}
+
+.navLink a{
+    text-decoration: none;
+}
+
+.active-navLink a{
+    border-bottom: 1px solid #2c3258;
+}
+
+
+/*------------      Main Section Styles     -------------*/
+
+img {
+    width: 15rem;
+}
