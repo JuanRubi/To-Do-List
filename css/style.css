@@ -36,12 +36,12 @@ body{
     top: 20px;
 }
 
-.clear i{
+.clear em{
     font-size: 30px;
     color: #FFF;
 }
 
-.clear i:hover{
+.clear em:hover{
     cursor: pointer;
     text-shadow: 1px 3px 5px #000;
     transform: rotate(45deg);
@@ -85,7 +85,7 @@ body{
     margin: 0;
 }
 
-.item i.co{
+.item em.co{
     position: absolute;
     font-size: 25px;
     padding-left:5px;
@@ -93,7 +93,7 @@ body{
     top:10px;
 }
 
-.item i.co:hover{
+.item em.co:hover{
     cursor: pointer;
 }
 
@@ -117,14 +117,14 @@ body{
     color : #ccc;
 }
 
-.item i.de{
+.item em.de{
     position: absolute;
     font-size: 25px;
     right:15px;
     top:10px;
 }
 
-.item i.de:hover{
+.item em.de:hover{
     color:#af0000;
     cursor: pointer;
 }
@@ -140,7 +140,7 @@ body{
 
 }
 
-.add-a-to-do i{
+.add-a-to-do em{
     position: absolute;
     font-size: 40px;
     color: #4162f6;

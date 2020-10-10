@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>To Do List App</title>
-    <script src="https://kit.fontawesome.com/e2efa4f150.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <nav>
+        <div>
+            <div class="title">
+                <h1>Website Title</h1>
+            </div>
+        
+            <div class="navigationBar">
+                <div class="navLink active-navLink">
+                  <a href="index.html">Home Page</a>
+                </div>
+        
+                <div class="navLink">
+                  <a href="login.html">Login</a>
+                </div>
+        
+                <div class="navLink">
+                  <a href="toDoList.html">My List</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
 
@@ -27,7 +49,7 @@
 
         <!----------------------        ADDING A TO-DO      -------------------------->
         <div class="add-a-to-do">
-            <i class="fa fa-plus-circle"></i>
+            <em class="fa fa-plus-circle"></em>
             <input type="text" id="input" placeholder="Add a to-do">
         </div>
 
