@@ -1,55 +1,98 @@
-
 /*----------------      Master Styles   -----------------*/
+
 body {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.1rem;
-    margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
 }
 
 main {
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-
 /*----------        Navigation Bar Styles       ---------*/
+
 nav {
-    height: 10rem;
-    color: #2c3258;
-    background-color: #fee970;
+  height: 10rem;
+  color: #2c3258;
+  background-color: #fee970;
 }
 
 .header {
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 0;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigationBar {
-    display: flex;
+  display: flex;
 }
 
 .navLink {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
-.navLink a{
-    text-decoration: none;
+.navLink a {
+  text-decoration: none;
 }
 
-.active-navLink a{
-    border-bottom: 1px solid #2c3258;
+.active-navLink a {
+  border-bottom: 1px solid #2c3258;
 }
-
 
 /*------------      Main Section Styles     -------------*/
 
+h2 {
+  color: #2c3258;
+}
+
 img {
-    width: 15rem;
+  width: 20rem;
+}
+
+/*----------     User Reviews Section        ------------*/
+
+.userReviewsContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.userReviews {
+  width: 45%;
+}
+
+.userReview {
+  width: 20rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/*------------        Login Page Styles       -----------*/
+
+#loginPage {
+  background-color: #dbd7d4;
+  width: 100%;
+}
+
+#loginFormContainer {
+  width: 40%;
+  height: 300px;
+  max-width: 1000px;
+  text-align: left;
+
+  margin: 10rem auto;
+  padding-top: 1rem;
+  border: 1px solid black;
 }
